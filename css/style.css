@@ -1,3 +1,24 @@
-.yvaga{
- color: brown;
+
+h1 {
+ background-color: rgb(47, 48, 58)
+}
+h2{
+    text-align: center;
+}
+button{
+    color: white;
+    border-color: rgba(33, 150, 243, 1) ;
+    background-color: rgba(33, 150, 243, 1);
+}
+.увага-до-деталей{
+    font-size: large;
+}
+.пунктуальність{
+    font-size: large;
+}
+.планування{
+    font-size: large;
+}
+.суч-тех{
+    font-size: large;
 }
