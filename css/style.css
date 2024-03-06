@@ -1,25 +1,104 @@
-
+header {
+  width: 1600px;
+  height: 80px;
+  background: #fff;
+}
 h1 {
- background-color: rgb(47, 48, 58);
- color: white;
+  background-color: rgb(47, 48, 58);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
 }
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
 }
-button{
-    color: white;
-    border-color: rgba(33, 150, 243, 1) ;
-    background-color: rgba(33, 150, 243, 1);
+button {
+  color: white;
+  border-color: rgba(33, 150, 243, 1);
+  background-color: rgba(33, 150, 243, 1);
 }
-.yvaga{
-    font-size: large;
+.pershemain {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
-.pynkt{
-    font-size: large;
+.pynkt {
+  font-size: large;
 }
-.plan{
-    font-size: large;
+.plan {
+  font-size: large;
 }
-.syc-tex{
-    font-size: large;
+.syc-tex {
+  font-size: large;
+}
+
+.zverhy {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  width: 281px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.WebStudio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.poshta {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.tel {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+th {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+td {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+footer{
+  background: #2f303a;
+}
+.nasha{
+  background: #f5f4fa;
+  text-align: center;
 }
