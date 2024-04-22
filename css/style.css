@@ -1,3 +1,24 @@
+
+body {
+  width: 1600px;
+  height: 2346px;
+  text-align: center;
+  font-family: Roboto
+
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+.container{
+  gap: 30;
+  width: 1600px;
+}
+
 header {
   width: 1600px;
   height: 80px;
@@ -7,12 +28,6 @@ header {
   align-items: center;
 }
 
-body {
-  width: 1600px;
-  height: 2346px;
-  text-align: center;
-  font-family: Roboto
-}
 
 .efect {
   display: flex;
@@ -29,7 +44,13 @@ body {
   text-transform: uppercase;
   color: #fff;
   background: #2f303a;
-  justify-content: center; /* Додано для вертикального центрування */
+  justify-content: center; 
+}
+
+.efect-list{
+  display: flex;
+  gap: 30px;
+  padding: 0;
 }
 
 .efect button {
@@ -51,7 +72,7 @@ button {
   border-color: rgba(33, 150, 243, 1);
   background-color: rgba(33, 150, 243, 1);
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 10px;
@@ -63,6 +84,7 @@ button {
   line-height: 1.875;
   letter-spacing: 0.06em;
 }
+
 
 .ypps {
   display: flex;
@@ -97,22 +119,17 @@ button {
 }
 
 
-.container {
-  display: flex;
-  flex-direction: column; /* Встановлює напрямок головної осі у вертикальний */
-}
+
 
 .foto1, .text-block {
-  width: 100%; /* Блоки займають всю доступну ширину */
+  width: 100%; 
 }
 
 .pershifoto {
-  list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
-  width: 1170px;
-height: 386px;
+  gap: 30;
 margin: 0 auto;
 }
 
@@ -149,12 +166,13 @@ height: 294px;
   height: 648px;
   display: flex;
   justify-content: center; /* Центруємо фотографії горизонтально */
-  flex-wrap: wrap; /* Дозволяємо фотографіям переноситися на новий рядок */
+  flex-wrap: wrap; 
 }
 
 .member {
-  text-align: center; /* Центруємо текст внутрішніх блоків */
-  margin: 10px; /* Задаємо відступ між елементами команди */
+  text-align: center;
+  margin: 30px;
+  background-color: #fff;
 }
 .team-members .member {
   width: 270px;
@@ -176,6 +194,7 @@ height: 294px;
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121; 
+  margin-top: 102px;
 }
 
 
@@ -196,11 +215,17 @@ height: 294px;
 
 .WebStudio {
   font-family: "Raleway", sans-serif;
+  margin-left: 215px;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+
+.poshta, .tel {
+  margin-left: 344px;
+}
+
 
 .poshta {
   font-family: "Roboto", sans-serif;
@@ -212,6 +237,8 @@ height: 294px;
 
 .tel {
   font-family: "Roboto", sans-serif;
+  margin-right: 215px;
+  margin-left: 50px;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -273,3 +300,4 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 }
+
